@@ -1,0 +1,30 @@
+{
+    "name": "ainara",
+    "displayName": "Ainara",
+    "description": "A Better Dark Visual Studio Code Theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Ainara",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Ainara-color-theme.json"
+            }
+        ]
+    },
+    "icon": "icons/icon.png",
+    "author": {
+        "name": "Ainara"
+    },
+    "repository": {
+        "url": "https://github.com/nespinozacr/Ainara-Theme",
+        "type": "git"
+    },
+    "publisher": "nespinozacr"
+}
