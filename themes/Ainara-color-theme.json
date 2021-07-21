@@ -2,93 +2,69 @@
 	"name": "Ainara",
 	"type": "dark",
 	"colors": {
-		// General
-		"foreground": 							"#EBDBB2",			// Color de Letra en barra lateral
-		"focusBorder": 							"#00000000",		// Color de Borde lista de elementos proyecto
-		"progressBar.background": 				"#FF002B",    		// Color de Barra de progreso
-		"selection.background": 				"#94949471",		// Color de Texto seleccionado en input de extensiones
-		"scrollbar.shadow": 					"#FF002B81",		// Color de Sombra de scroll en editor
-		"textLink.foreground": 					"#FF002B",			// Color de Texto Links
-		"textLink.activeForeground": 			"#ca1835",			// Color de Hover Links
+		"foreground": 							"#EBDBB2",
+		"focusBorder": 							"#00000000",
+		"progressBar.background": 				"#FF002B",
+		"selection.background": 				"#94949471",
+		"scrollbar.shadow": 					"#FF002B81",
+		"textLink.foreground": 					"#FF002B",
+		"textLink.activeForeground": 			"#ca1835",
 		"widget.shadow": 						"#07080A",
 		"pickerGroup.border": 					"#4C4F58",
-
-		// Barra de Actividades ( ICONOS )
-		"activityBar.activeBackground": 		"#00000000", 	 	// Color de Fondo icono seleccionado
-		"activityBar.background": 				"#07080A", 		 	// Color de Barra de iconos
-		"activityBar.border": 					"#4C4F58", 		    // Borde de División barra de iconos
-		"activityBarBadge.background": 			"#39405a", 	 	 	// Color de Fondo circulo archivo sin guardar
-		"activityBarBadge.foreground": 			"#EBDBB2", 	 	 	// Color de Numero de archivo sin guardar
-		"activityBar.foreground": 				"#EBDBB2",        	// Color de Iconos
+		"activityBar.activeBackground": 		"#00000000",
+		"activityBar.background": 				"#07080A",
+		"activityBar.border": 					"#4C4F58",
+		"activityBarBadge.background": 			"#39405a",
+		"activityBarBadge.foreground": 			"#EBDBB2",
+		"activityBar.foreground": 				"#EBDBB2",
 		"activityBar.activeFocusBorder": 		"#FF002B",
-
-		// Botones
-		"button.background": 					"#FF002B6E",		// Color de Fondo
-		"button.hoverBackground": 				"#ca1835",			// Color de Fondo hover
-		"button.foreground": 					"#EBDBB2",			// Color de Texto Botones
-
-		// Badge
-		"badge.background": 					"#39405a", 			// Color de fondo  circulo de extensiones
-		"badge.foreground": 					"#EBDBB2",			// Color de numero circulo de extensiones
-
-		// Editor
-		"editor.background": 					"#07080A", 			// Color de Fondo de editor
-		"editorLineNumber.activeForeground": 	"#EBDBB2", 			// Color de Numero de linea activa
-		"editorCursor.foreground": 				"#D3D3D3", 			// Color de Cursor
-		"editor.selectionBackground": 			"#0c0e11",      	// Color de Fondo texto seleccionado
-		"editorIndentGuide.background": 		"#EFE5DC85",    	// Color de Lineas de indentación
-		"editorError.foreground": 				"#FF0000",          // Color de Error
-		"editorWarning.foreground": 			"#FEDB18",			// Color de Advertencia
-		"editorGutter.modifiedBackground": 		"#03b0b6",   		// Color de Modificados
-		"editorGutter.addedBackground": 		"#7fb800",			// Color de Agregados
+		"button.background": 					"#FF002B6E",
+		"button.hoverBackground": 				"#ca1835",
+		"button.foreground": 					"#EBDBB2",
+		"badge.background": 					"#39405a",
+		"badge.foreground": 					"#EBDBB2",
+		"editor.background": 					"#07080A",
+		"editorLineNumber.activeForeground": 	"#EBDBB2",
+		"editorCursor.foreground": 				"#D3D3D3",
+		"editor.selectionBackground": 			"#0c0e11",
+		"editorIndentGuide.background": 		"#EFE5DC85",
+		"editorError.foreground": 				"#FF0000",
+		"editorWarning.foreground": 			"#FEDB18",
+		"editorGutter.modifiedBackground": 		"#03b0b6",
+		"editorGutter.addedBackground": 		"#7fb800",
 		"editorGutter.deletedBackground": 		"#e54b4b",
 		"editorIndentGuide.activeBackground": 	"#ff002b",
-		"editorLineNumber.foreground": 			"#4c4f58",       	// Color de Numero de linea
-		"editor.lineHighlightBackground": 		"#0c0e11",  		// Color de Fondo de linea actual en editor
-		"editorGroupHeader.tabsBackground": 	"#00000000",		// Color de Barra pestañas abiertas
+		"editorLineNumber.foreground": 			"#4c4f58",
+		"editor.lineHighlightBackground": 		"#0c0e11",
+		"editorGroupHeader.tabsBackground": 	"#00000000",
 		"editorWidget.background": 				"#07080A",
-		"editor.foreground": 					"#ebdbb2",          // Color de Letra en editor
-
-		// Inputs
-		"input.background": 					"#07080A",			// Color de Fondo
+		"editor.foreground": 					"#ebdbb2",
+		"input.background": 					"#07080A",
 		"inputOption.activeBackground": 		"#07080A",
-		"input.border": 						"#FF002B",			// Color de Borde
-		"input.foreground": 					"#EBDBB2",			// Color de Letra
-
-		// Listas
-		"list.inactiveSelectionBackground":     "#0c0e11",			// Color de Fondo lista de archivos
-		"list.hoverBackground": 				"#0c0e11",			// Color de Hover lista de archivos
-		"list.activeSelectionBackground":		"#0c0e11",			// Color de background, themes y menu (Menu Funciona Windows)
+		"input.border": 						"#FF002B",
+		"input.foreground": 					"#EBDBB2",
+		"list.inactiveSelectionBackground":     "#0c0e11",
+		"list.hoverBackground": 				"#0c0e11",
+		"list.activeSelectionBackground":		"#0c0e11",
 		"list.dropBackground": 					"#1A222c",
-		"list.highlightForeground": 			"#ff4967",			// Color de Lista seleccion en CSS, HTML JS
+		"list.highlightForeground": 			"#ff4967",
 		"list.focusBackground": 				"#004d5041",
-		"list.errorForeground": 				"#ff110088",		// Color de Error
-		"list.warningForeground": 				"#FEDB18",			// Color de Advertencia
-
+		"list.errorForeground": 				"#ff110088",
+		"list.warningForeground": 				"#FEDB18",
 		"dropdown.listBackground": 				"#07080A",
-
-		// Menu
-		"menu.background": 						"#07080A",          // Color de fondo caja de menu
-		"menu.border": 							"#07080A",			// Color de borde caja de menu
-		"menu.selectionBorder": 				"#00000000",		// Color de borde hover en la lista de caja de menu
-		"menubar.selectionBackground": 			"#ca1835",	 		// Color de fondo lista de menu
-		"menubar.selectionBorder": 				"#00000000",		 	// Color de borde lista de menu
-		"menubar.selectionForeground": 			"#ebdbb2",    		// Color File Edit Selection View
-
-		// Mini mapa
+		"menu.background": 						"#07080A",
+		"menu.border": 							"#07080A",
+		"menu.selectionBorder": 				"#00000000",
+		"menubar.selectionBackground": 			"#ca1835",
+		"menubar.selectionBorder": 				"#00000000",
+		"menubar.selectionForeground": 			"#ebdbb2",
 		"minimap.errorHighlight": 				"#FF0000",
 		"minimap.warningHighlight": 			"#FEDB18",
-
-		// Notificaciones
-		"notificationCenterHeader.background": 	"#07080A",			// Color de Fondo
-		"notificationCenter.border": 			"#ff002b",			// Color de Borde
-		"notificationCenterHeader.foreground": 	"#ebdbb2",			// Color de Texto
-
-		// Panel (Terminal)
-		"panel.background": 					"#07080A",			// Color de Fondo
-		"panelTitle.activeBorder": 				"#ff002b",			// Color de Borde Activo
-
-		// Configuraciones
+		"notificationCenterHeader.background": 	"#07080A",
+		"notificationCenter.border": 			"#ff002b",
+		"notificationCenterHeader.foreground": 	"#ebdbb2",
+		"panel.background": 					"#07080A",
+		"panelTitle.activeBorder": 				"#ff002b",
 		"settings.dropdownBackground": 			"#07080A",
 		"settings.textInputBackground": 		"#07080A",
 		"settings.dropdownBorder": 				"#ff002b",
@@ -101,54 +77,39 @@
 		"settings.numberInputBorder": 			"#ff002b",
 		"settings.checkboxBorder": 				"#ff002b",
 		"settings.focusedRowBackground": 		"#0c0e11",
-
-		// Barra de Scroll
-		"scrollbarSlider.background": 			"#0c0e11",			// Color de Barra de Scroll
-		"scrollbarSlider.hoverBackground": 		"#0c0e11",			// Color de Hover barra de Scroll
-		"scrollbarSlider.activeBackground": 	"#3e414e",			// Color de Barra de Scroll al presionar
-
-
-		// Barra Lateral
-		"sideBarTitle.foreground": 				"#EBDBB2",			// Color de Titulo (Explorer)
-		"sideBar.background": 					"#07080A",			// Color de Fondo
-		"sideBarSectionHeader.background": 		"#07080A",			// Color de Fondo (Nombre Proyecto, Outline, Timeline)
-		"sideBar.border": 						"#4C4F58",			// Color de Borde (División entre el editor de texto)
-		"sideBarSectionHeader.foreground": 		"#EBDBB2",			// Color de Texto (Nombre Proyecto, Outline, Timeline)
-
-		//Barra de Estado
-		"statusBar.background": 				"#07080A",			// Color de Barra de estado
-		"statusBarItem.hoverBackground": 		"#ca1835",			// Color de Fondo al hacer hover
-		"statusBar.border": 					"#07080A",			// Color de Borde
-		"statusBarItem.errorBackground": 		"#ff5b2d",			// Color de Fondo Error
-		"statusBarItem.errorForeground": 		"#ebdbb2",			// Color de Texto Error
-		"statusBar.foreground": 				"#ebdbb2",			// Color de Texto
-		"statusBar.noFolderBackground": 		"#07080A",			// Color de Barra de estado sin proyectos activos
-
-		// Pestañas
-		"tab.activeBackground": 				"#00000000",		// Color de Fondo pestaña activa
-		"tab.inactiveBackground": 				"#00000000",		// Color de Fondo pestaña inactiva
-		"tab.hoverBackground": 					"#00000000",		// Color de Fondo pestaña hover
-		"tab.hoverBorder": 						"#00000000",		// Color de Borde pestaña hover
-		"editorGroupHeader.tabsBorder": 		"#00000000",		// Color de Borde (Abajo)
-		"tab.activeForeground": 				"#ebdbb2",			// Color de Texto pestaña activa
-		"tab.hoverForeground": 					"#ff002b",			// Color de Texto hover
-		"tab.border": 							"#00000000",		// Color de Borde (Separación)
+		"scrollbarSlider.background": 			"#0c0e11",
+		"scrollbarSlider.hoverBackground": 		"#0c0e11",
+		"scrollbarSlider.activeBackground": 	"#3e414e",
+		"sideBarTitle.foreground": 				"#EBDBB2",
+		"sideBar.background": 					"#07080A",
+		"sideBarSectionHeader.background": 		"#07080A",
+		"sideBar.border": 						"#4C4F58",
+		"sideBarSectionHeader.foreground": 		"#EBDBB2",
+		"statusBar.background": 				"#07080A",
+		"statusBarItem.hoverBackground": 		"#ca1835",
+		"statusBar.border": 					"#07080A",
+		"statusBarItem.errorBackground": 		"#ff5b2d",
+		"statusBarItem.errorForeground": 		"#ebdbb2",
+		"statusBar.foreground": 				"#ebdbb2",
+		"statusBar.noFolderBackground": 		"#07080A",
+		"tab.activeBackground": 				"#00000000",
+		"tab.inactiveBackground": 				"#00000000",
+		"tab.hoverBackground": 					"#00000000",
+		"tab.hoverBorder": 						"#00000000",
+		"editorGroupHeader.tabsBorder": 		"#00000000",
+		"tab.activeForeground": 				"#ebdbb2",
+		"tab.hoverForeground": 					"#ff002b",
+		"tab.border": 							"#00000000",
 		"tab.activeBorder": 					"#ff002b46",
-
-		// Terminal
-		"terminal.selectionBackground": 		"#94949471",		// Color de Texto seleccionado
-		"terminalCursor.foreground": 			"#fff8f8",			// Color de Cursor
-		"terminalCursor.background": 			"#169c9c71",		// Color de Fondo Cursor
-		"terminal.foreground": 					"#ebdbb2",			// Color de Texto
-		//"terminal.tab.activeBorder": 			"#FF002B",			// Color de Borde tab terminal activa
-
-		//Title Bar
+		"terminal.selectionBackground": 		"#94949471",
+		"terminalCursor.foreground": 			"#fff8f8",
+		"terminalCursor.background": 			"#169c9c71",
+		"terminal.foreground": 					"#ebdbb2",
+		"terminal.tab.activeBorder": 			"#FF002B",
 		"titleBar.activeBackground": 			"#07080A",
 		"titleBar.inactiveBackground": 			"#07080Ad7",
 		"titleBar.activeForeground": 			"#ebdbb2",
 		"titleBar.border": 						"#ff002b38",
-
-
 	},
 	"tokenColors": [
 		{
@@ -159,7 +120,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#616161" // Comentarios
+				"foreground": "#616161"
 			}
 		},
 		{
@@ -169,7 +130,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EBDBB2" // Variables JS, CSS
+				"foreground": "#EBDBB2"
 			}
 		},
 		{
@@ -199,7 +160,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#FF3B2D", // Let, Const, Functon, Async <html = > !
+				"foreground": "#FF3B2D",
 				"fontStyle": "italic"
 			}
 		},
@@ -219,7 +180,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#90CF79" // Llaves {CSS}, </html> if, else
+				"foreground": "#90CF79"
 			}
 		},
 		{
@@ -243,7 +204,7 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#FF3B2D" // Color de Tag HTML atributos CSS
+				"foreground": "#FF3B2D"
 			}
 		},
 		{
@@ -256,7 +217,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#FAC149" // Metodos JS
+				"foreground": "#FAC149"
 			}
 		},
 		{
@@ -265,7 +226,7 @@
 				"meta.block variable.other"
 			],
 			"settings": {
-				"foreground": "#FF3B2D" // Block de variables JS
+				"foreground": "#FF3B2D"
 			}
 		},
 		{
@@ -291,7 +252,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#D3869B" // Color de numeros JS, CSS 100%, center etc
+				"foreground": "#D3869B"
 			}
 		},
 		{
@@ -306,7 +267,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#EBDBB2" // Color de String JS HTML
+				"foreground": "#EBDBB2"
 			}
 		},
 		{
@@ -354,7 +315,7 @@
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#EBDBB2" // color, background, margin, padding
+				"foreground": "#EBDBB2"
 			}
 		},
 		{
@@ -535,7 +496,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#FF3B2D", // Atributos HTML
+				"foreground": "#FF3B2D",
 				"fontStyle": "italic"
 			}
 		},
@@ -599,7 +560,7 @@
 				"entity.other.attribute-name.class"
 			],
 			"settings": {
-				"foreground": "#fe4918" // CSS Classes
+				"foreground": "#fe4918"
 			}
 		},
 		{
